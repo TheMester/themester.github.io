@@ -1,0 +1,223 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding:0 !important;
+    
+}
+
+.navbar-brand img{
+    height:40px;
+    padding-left:20px;
+}
+
+.navbar-nav li{
+    padding: 0 20px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 720;
+}
+
+.fa-bars{
+    color:#fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*-----------------------------------------------  Banner Section -------------------------------------------------*/
+
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color:#fff;
+    padding-top: 5%;
+    width:100%;
+    height:640px;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+/* --------------------------------------------------- Services area ------------------------------------------*/
+
+.services{
+    margin-top:-100px;
+    margin-bottom: 50px;
+}
+.services.services-area2{
+    margin-top:0
+}
+.services .single-services{
+    display:flex;
+    box-shadow:0px 25px 60px rgba(66,85,164,0.06);
+    padding:29px 24px;
+    border-radius:20px;
+    background:#fff
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .services .single-services{
+        padding:18px 14px
+    }
+}
+@media (max-width: 575px){
+    .services .single-services{
+        padding:18px 14px
+    }
+}
+.services .single-services .features-icon{
+    position:relative;
+    top:8px
+}
+.services .single-services .features-icon i{
+    display:block;
+}
+.services .single-services .features-caption{
+    padding-left:19px
+}
+.services .single-services .features-caption h3{
+    font-size:20px;
+    line-height:1.2;
+    margin-bottom:10px;
+    font-weight:700
+}
+.services .single-services .features-caption p{
+    font-size:17px;
+    line-height:1.8;
+    color:#4255A4;
+    margin-bottom:0
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .services .single-services .features-caption p{
+        font-size:15px
+    }
+}
+@media (max-width: 575px){
+    .services .single-services .features-caption p{
+        font-size:15px
+    }
+}
+
+
+/* --------------------------------------------------- Learn Skills ------------------------------------------- */ 
+
+.learn-skills .support-wrapper{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap
+}
+
+.skills-icon{
+ background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+
+.skills-icon i{
+    color: white;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .learn-skills .support-wrapper{
+        display:block
+    }
+}
+.learn-skills .support-wrapper .left-content1{
+    width:49%;
+    padding-left:366px
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px){
+    .learn-skills .support-wrapper .left-content1{
+        width:45%;
+        padding-left:100px
+    }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1800px){
+    .learn-skills .support-wrapper .left-content1{
+        width:42%;
+        padding-left:120px
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    .learn-skills .support-wrapper .left-content1{
+        padding-left:30px;
+        width:48%;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px){
+    .learn-skills .support-wrapper .left-content1{
+        padding-left:100px;width:49%
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .learn-skills .support-wrapper .left-content1{
+        width:67%;
+        padding-left:120px
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .learn-skills .support-wrapper .left-content1{
+        width:82%;
+        padding-left:30px;
+        padding-left:50px
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .learn-skills .support-wrapper .left-content1{
+        width:100%;
+        padding-left:30px
+    }
+}
+@media (max-width: 575px){.learn-skills .support-wrapper .left-content1{
+    width:100%;
+    padding-left:30px
+    }
+}
+.learn-skills .support-wrapper .left-content1 .skills-icon{
+    width:80px;
+    height:80px;
+    border-radius:50px;
+    display:inline-block;
+    position:relative;
+    margin-bottom:31px;
+    line-height:80px;
+    text-align:center;
+    box-shadow:0px 15px 25px rgba(66,85,164,0.08)
+}
+.learn-skills .support-wrapper .left-content1 .single-features{
+    display:flex
+}
+.learn-skills .support-wrapper .left-content1 .single-features .features-icon{
+    position:relative;
+    top:8px
+}
+.learn-skills .support-wrapper .left-content1 .single-features .features-icon i{
+    display:block;
+}
+.learn-skills .support-wrapper .left-content1 .single-features .features-caption{
+    padding-left:19px;
+}
+.learn-skills .support-wrapper .left-content1 .single-features .features-caption h3{
+    font-size:25px;
+    line-height:1.2;
+    margin-bottom:16px;
+    font-weight:400;
+}
+.learn-skills .support-wrapper .left-content1 .single-features .features-caption p{
+    font-size:16px;
+    line-height:1.8;
+    color:#4255A4;
+}
