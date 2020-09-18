@@ -102,6 +102,7 @@
 .services .single-services .features-icon{
     position:relative;
     top:8px;
+    
 }
 .services .single-services .features-icon i{
     display:block;
@@ -147,6 +148,7 @@
 
 .skills-icon i{
     color: white;
+    padding:22px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -518,7 +520,6 @@
     margin-right:100px;
     position:relative;
 }
-
 
 
 /* ------------------------------------------------- Footer area ------------------------------------------------------*/
@@ -942,7 +943,7 @@
 }
 
 .slider-area2 .hero__caption2 h1{
-    margin-top:-50px;
+    margin-top:-95px;
     font-size:60px;
     font-weight:700;
     color:#fff;
@@ -1010,5 +1011,147 @@
 }
 .breadcrumb a{
     color:white;
+}
+
+/* -------------------------------------------Courses featured-courses ------------------------------------------------------*/
+
+.courses-area .properties{
+    margin:0 15px;
+}
+
+.courses-area .properties.properties2{
+    margin-bottom:30px;
+
+}
+.courses-area .properties__img img{
+    width:100%;
+    border-radius:10px 10px 0 0;
+    position:relative;
+}
+.courses-area .properties__caption{
+    padding:29px 20px 20px 20px;
+}
+.courses-area .properties__caption h3{
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:6px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .courses-area .properties__caption h3{
+        font-size:16px;
+    }
+}
+.courses-area .properties__caption h3 a{
+    text-decoration:underline transparent;
+}
+
+.courses-area .properties__caption h3 a:hover{
+    text-decoration:underline;
+    color:#4255A4;
+}
+.courses-area .properties__caption p{
+    color:#6E7697;
+}
+.courses-area .properties:hover .border-btn2{
+    color:#fff;
+    background:#FF9F67;
+    -webkit-transition:.4s;
+    -moz-transition:.4s;
+    -o-transition:.4s;
+    transition:.4s;
+}
+.courses-actives button.slick-arrow{
+    position:absolute;
+    border:0;padding:0;
+    z-index:2;
+    cursor:pointer;
+    top:50%;
+    transform:translateY(-50%);
+    left:auto;
+    background:none;
+}
+.courses-actives button.slick-arrow i{
+    font-size:20px;
+    color:#C86FFF;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+    -o-transition:.2s;
+    transition:.2s;
+}
+.courses-actives button.slick-arrow i:hover{
+    color:#4255A4;
+}
+.courses-actives button.slick-prev{
+    left:-58px;
+}
+.courses-actives button.slick-prev i{
+    color:#ddd;
+}
+.courses-actives button.slick-next{
+    right:-58px;
+}
+.courses-actives button.slick-next i{
+    color:#ddd;
+}
+
+
+/* ------------------------------------------------ Courses  Services-area ------------------------------------------------------*/
+
+.services-area2{
+    margin-top:70px;
+    margin-bottom: 50px;
+}
+
+.services-area2 .single-services{
+    display:flex;
+    box-shadow:0px 30px 65px rgba(66,85,164,0.06);
+    padding:29px 24px;
+    border-radius:20px;
+    background:#fff;
+    margin-bottom:12px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .services-area2 .single-services{
+        padding:18px 14px;
+    }
+}
+@media (max-width: 575px){
+    .services-area2 .single-services{
+        padding:18px 14px;
+    }
+}
+.services-area2 .single-services .features-icon{
+    position:relative;
+    top:8px;
+}
+.services-area2 .single-services .features-icon i{
+    display:block;
+}
+.services-area2 .single-services .features-caption{
+    padding-left:19px
+}
+.services-area2 .single-services .features-caption h3{
+    font-size:20px;
+    line-height:1.2;
+    margin-bottom:10px;
+    font-weight:700;
+}
+.services-area2 .single-services .features-caption p{
+    font-size:17px;
+    line-height:1.8;
+    color:#4255A4;
+    margin-bottom:0;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .services-area2 .single-services .features-caption p{
+        font-size:15px;
+    }
+}
+@media (max-width: 575px){
+    .services-area2 .single-services .features-caption p{
+        font-size:15px;
+    }
 }
 
